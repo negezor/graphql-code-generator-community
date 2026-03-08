@@ -2444,12 +2444,12 @@
   resolved "https://registry.yarnpkg.com/@rollup/rollup-win32-x64-msvc/-/rollup-win32-x64-msvc-4.59.0.tgz#4584a8a87b29188a4c1fe987a9fcf701e256d86c"
   integrity sha512-2HRCml6OztYXyJXAvdDXPKcawukWY2GpR5/nxKp4iBgiO3wcoEGkAaqctIbZcNB6KlUQBIqt8VYkNSj2397EfA==
 
-"@rtk-query/graphql-request-base-query@2.3.1":
-  version "2.3.1"
-  resolved "https://registry.yarnpkg.com/@rtk-query/graphql-request-base-query/-/graphql-request-base-query-2.3.1.tgz#edfb2873705c4c6b05b171b6233c590de4572739"
-  integrity sha512-D8R+YLPGpP3xLQ9JmNK2jgBWmcsIQm3u4kCjW6vRACBaGEey4WbjanYmtRPv16WbW+NcA7yXicVTuExuSXSi4A==
+"@rtk-query/graphql-request-base-query@2.3.2":
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/@rtk-query/graphql-request-base-query/-/graphql-request-base-query-2.3.2.tgz#974757c62b0c7e6b2a5dbedbf7ea9ab50312b1f3"
+  integrity sha512-UJ6Rnpu0VYTDTSlpqHAMnuZFax8VUAT1/zpotwcBbn1fanQXnSU/ik6FPGo5yyp/apMzsZpo3H0ZqaLdQ0ysow==
   dependencies:
-    graphql-request "^4.0.0 || ^5.0.0 || ^6.0.0"
+    graphql-request "^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0"
 
 "@rtsao/scc@^1.1.0":
   version "1.1.0"
@@ -2533,14 +2533,7 @@
   resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.17.24.tgz#4ae334fc62c0e915ca8ed8e35dcc6d4eeb29215f"
   integrity sha512-gIW7lQLZbue7lRSWEFql49QJJWThrTFFeIMJdp3eH4tKoxm1OvEPg02rm4wCCSHS0cL3/Fizimb35b7k8atwsQ==
 
-"@types/node@*":
-  version "25.3.5"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-25.3.5.tgz#beccb5915561f7a9970ace547ad44d6cdbf39b46"
-  integrity sha512-oX8xrhvpiyRCQkG1MFchB09f+cXftgIXb3a7UUa4Y3wpmZPw5tyZGTLWhlESOLq1Rq6oDlc8npVU2/9xiCuXMA==
-  dependencies:
-    undici-types "~7.18.0"
-
-"@types/node@24.12.0":
+"@types/node@*", "@types/node@24.12.0":
   version "24.12.0"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-24.12.0.tgz#6222e028210e5322e4f4f6767f8d88e5ea3b33d2"
   integrity sha512-GYDxsZi3ChgmckRT9HPU0WEhKLP08ev/Yfcq2AstjrDASOYCSXeyjDsHg4v5t4jOj7cyDX3vmprafKlWIG9MXQ==
@@ -4349,14 +4342,14 @@ graphql-jit@0.8.7:
     lodash.merge "4.6.2"
     lodash.mergewith "4.6.2"
 
-graphql-request@7.2.0:
+graphql-request@7.2.0, "graphql-request@^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0":
   version "7.2.0"
   resolved "https://registry.yarnpkg.com/graphql-request/-/graphql-request-7.2.0.tgz#af4aa25f27a087dd4fc93a4ff54a0f59c4487269"
   integrity sha512-0GR7eQHBFYz372u9lxS16cOtEekFlZYB2qOyq8wDvzRmdRSJ0mgUVX1tzNcIzk3G+4NY+mGtSz411wZdeDF/+A==
   dependencies:
     "@graphql-typed-document-node/core" "^3.2.0"
 
-"graphql-request@^4.0.0 || ^5.0.0 || ^6.0.0", graphql-request@^6.0.0:
+graphql-request@^6.0.0:
   version "6.1.0"
   resolved "https://registry.yarnpkg.com/graphql-request/-/graphql-request-6.1.0.tgz#f4eb2107967af3c7a5907eb3131c671eac89be4f"
   integrity sha512-p+XPfS4q7aIpKVcgmnZKhMNqhltk20hfXtkaIkTfjjmiKMJ5xrt5c743cL03y/K7y1rg3WrIC49xGiEQ4mxdNw==
@@ -6591,11 +6584,6 @@ undici-types@~7.16.0:
   version "7.16.0"
   resolved "https://registry.yarnpkg.com/undici-types/-/undici-types-7.16.0.tgz#ffccdff36aea4884cbfce9a750a0580224f58a46"
   integrity sha512-Zz+aZWSj8LE6zoxD+xrjh4VfkIG8Ya6LvYkZqtUQGJPZjYl53ypCaUwWqo7eI0x66KBGeRo+mlBEkMSeSZ38Nw==
-
-undici-types@~7.18.0:
-  version "7.18.2"
-  resolved "https://registry.yarnpkg.com/undici-types/-/undici-types-7.18.2.tgz#29357a89e7b7ca4aef3bf0fd3fd0cd73884229e9"
-  integrity sha512-AsuCzffGHJybSaRrmr5eHr81mwJU3kjw6M+uprWvCXiNeN9SOGwQ3Jn8jb8m3Z6izVgknn1R0FTCEAP2QrLY/w==
 
 unicode-canonical-property-names-ecmascript@^2.0.0:
   version "2.0.1"
